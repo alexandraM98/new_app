@@ -1,5 +1,23 @@
 <%- include('_header'); -%>
 
-<h1>Welcome to my first Node.js app</h1>
 
-<%- include ('_footer'); -%>
+<iframe id="googlemaps" src="https://www.google.com/maps/d/embed?mid=1NfBX2S-yKHByCfyk6RQA55StWSxX18z1&hl=en&ehbc=2E312F" width="640" height="480">
+
+  
+
+</iframe>
+  <!-- Twitter Feed Embed -->
+
+  <div class="add_container">
+    <iframe id="feed" width="400" height="500" src="https://rss.app/embed/v1/wall/fcyt5cfk7EonfIU7" frameborder="0"></iframe>
+      
+    <div id="disqus_thread"></div>
+  </div>
+
+
+<button id="b1" onclick="loadClient()">load</button>
+<button id="b2" onclick="execute()">execute</button>
+
+
+
+<%- include('_footer'); -%>
